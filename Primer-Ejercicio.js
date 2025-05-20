@@ -35,6 +35,14 @@ let variable = "Esta es una variable let puede cambiar su valor"
 const constante = "Esta es una constante const no puede cambiar su valor"
 
 /* En javascript hay 7 tipos de datos primitivos:
-    
-
+    1. String 
+    2. Number
+    3. Bigint
+    4. Boolean
+    5. Undefined
+    6. Symbol
+    7. Null
 */
+
+let string = "Esto es un string"
+let number = 123456789;
