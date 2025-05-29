@@ -46,3 +46,11 @@ const constante = "Esta es una constante const no puede cambiar su valor"
 
 let string = "Esto es un string"
 let number = 123456789;
+let bigint = 121513541353151n; // El sufijo n indica que es un BigInt
+let boolean = true && false; // Boolean puede ser true o false
+let undefinedVariable; // Una variable sin valor asignado es undefined
+let symbol = Symbol("Esto es una clave unica"); // Symbol es un valor unico e inmutable
+let nullVariable = null; // Null es un valor intencionalmente vacio
+
+console.log("Hola JavaScript!");
+
