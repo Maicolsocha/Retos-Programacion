@@ -34,10 +34,21 @@ if(condicion){
 
 // //Ciclo For(Se repite una cantidad de veces dada, siempre y cuando la condicion sea verdadera, cuando es false sale del ciclo para dar paso a lo que sigue del codigo)
 // //Tablas de multiplicar
-tabla = 5;
-hasta = 10;
-for(let i = 1; i<= hasta; i++){
-    console.log(`${tabla} X ${i} = ${tabla*i}`)
+let tablaFor = 5;
+let hastafor = 10;
+for(let i = 1; i<= hastafor; i++){
+    console.log(`${tablaFor} X ${i} = ${tablaFor*i}`)
+}
+
+//for in es utilizado para objetos y iterar sobre sus propiedades 
+let perros = {
+    nombre : "Poncho",
+    edad : 3,
+    raza : "Lobo"
+}
+
+for(let perro in perros ){
+    console.log(perros[perro])
 }
 
 // //forEach - Utilizado para arrays no para objetos y sirve para hacer algo con cada algo de esa informacion
@@ -54,16 +65,16 @@ nombres.forEach(function(nombre, indice, completo){
 
 //Ciclo While(Al igual que en el ciclo for la diferencia es la forma de escribirse como en el siguiente ejemplo)
 
-let tabla = 6;
-let hasta = 10;
+let tablaWhile = 6;
+let hastaWhile = 10;
 let comienzo = 1;
-while(comienzo <= hasta){
-    console.log(`${tabla} X ${comienzo} = ${tabla*comienzo}`)
+while(comienzo <= hastaWhile){
+    console.log(`${tablaWhile} X ${comienzo} = ${tablaWhile*comienzo}`)
     comienzo++
 }
 
 // //Switch 
-
+let x = 1
 switch(x){
     case 1 : console.log('Caso 1')
     break
@@ -71,4 +82,3 @@ switch(x){
     break
     default : console-log('Caso por defecto')
 }
-
