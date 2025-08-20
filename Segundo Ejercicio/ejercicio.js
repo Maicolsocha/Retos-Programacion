@@ -6,11 +6,3 @@ for(let i = start; i<=end; i++){
         console.log(i)
     }
 }
-
-
-const sstart = 10;
-const send = 55;
-
-Array.from({ length: end - start + 1 }, (_, k) => start + k)
-  .filter(n => n % 2 === 0 && n !== 16 && n % 3 !== 0)
-  .forEach(n => console.log(`${n} i`));
