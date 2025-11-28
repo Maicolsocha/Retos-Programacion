@@ -8,17 +8,17 @@
  */
 
 
-for(let i = 1; i <= 100; i++){
-    let fizzBuzz = i;
-    if(i % 3 === 0 && i % 5 == 0){
-        fizzBuzz = 'fizzbuzz'
-    }else if(i % 3 === 0){
-        fizzBuzz = 'fizz'
-    }else if(i % 5 === 0){
-        fizzBuzz = 'buzz'
-    }
-    console.log(fizzBuzz)
-}
+// for(let i = 1; i <= 100; i++){
+//     let fizzBuzz = i;
+//     if(i % 3 === 0 && i % 5 == 0){
+//         fizzBuzz = 'fizzbuzz'
+//     }else if(i % 3 === 0){
+//         fizzBuzz = 'fizz'
+//     }else if(i % 5 === 0){
+//         fizzBuzz = 'buzz'
+//     }
+//     console.log(fizzBuzz)
+// }
 
 
 //Optimizacion recomendada por chatgpt y leida y entendidad para proximos proyectos
@@ -31,6 +31,13 @@ function fizzBuzz(n){
 
 }
 
-for(let i = 1; i<=100; i++){
-    console.log(fizzBuzz(i))
+// for(let i = 1; i<=100; i++){
+//     console.log(fizzBuzz(i))
+// }
+
+
+const contarPares = (ar) =>{
+    let sum = 0
 }
+
+console.log(contarPares([1, 2, 3, 4, 5, 6, 48, 53, 50, 98]))
